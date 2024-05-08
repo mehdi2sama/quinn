@@ -3,7 +3,7 @@ members = ["quinn", "quinn-proto", "quinn-udp", "bench", "perf", "fuzz"]
 default-members = ["quinn", "quinn-proto", "quinn-udp", "bench", "perf"]
 
 [profile.bench]
-debug = true
+debug = false
 
 [profile.release]
 debug = true
